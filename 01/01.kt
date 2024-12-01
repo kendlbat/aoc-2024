@@ -23,5 +23,3 @@ fun main() {
 
     println(sum)
 }
-
-main()

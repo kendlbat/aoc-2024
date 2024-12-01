@@ -19,5 +19,3 @@ fun main() {
         num * count * counts2.getOrDefault(num, 0)
     })
 }
-
-main()
