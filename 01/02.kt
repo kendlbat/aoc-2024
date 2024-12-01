@@ -4,7 +4,7 @@ import java.util.PriorityQueue
 import kotlin.math.abs
 
 fun main() {
-    val file = File("input")
+    val file = Aoc.getInput(1)
 
     val nums = file.readLines().subList(0, 1000).map { it.split("   ").map { it.toInt() } }
     val counts1 = HashMap<Int, Int>()

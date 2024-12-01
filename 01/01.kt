@@ -3,7 +3,7 @@ import java.util.PriorityQueue
 import kotlin.math.abs
 
 fun main() {
-    val file = File("input")
+    val file = Aoc.getInput(1)
 
     val q1 = PriorityQueue<Int>()
     val q2 = PriorityQueue<Int>()
