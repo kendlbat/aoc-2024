@@ -1,7 +1,4 @@
-import java.io.File
 import java.util.HashMap
-import java.util.PriorityQueue
-import kotlin.math.abs
 
 fun main() {
     val file = Aoc.getInput(1)
