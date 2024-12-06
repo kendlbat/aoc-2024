@@ -29,10 +29,6 @@ fun main() {
 
         }
 
-        if (direction == 0) {
-            valid = false
-        }
-
         if (valid) {
             count++
         }
